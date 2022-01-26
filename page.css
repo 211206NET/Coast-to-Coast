@@ -11,6 +11,11 @@ img {
     border-style: groove;
     border-color: black;
     border-width: 4px;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img:hover{
+    box-shadow: 0 4px 18px 0 rgba(49, 20, 209, 0.5), 0 6px 20px 0 rgba(61, 14, 189, 0.5);
+    
 }
 
 .image-container{
@@ -20,6 +25,11 @@ img {
 .image-container, h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    transition: font-size 3s 0.5s;
+    
+}
+h2:hover{
+    font-size: 30px;
 }
 
 .flex-container {

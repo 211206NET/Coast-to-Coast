@@ -45,3 +45,19 @@ img:hover{
     justify-content: center;
     flex-flow: row wrap;
 }  
+
+canvas {
+    height: 500px;
+    width: auto;
+    background-image: url("https://www.charlestoncvb.com/assets/images/home/slider/history.jpg");
+    background-size: cover;
+    background-position: center; /* Center the image */
+    border-style: groove;
+    border-color: black;
+    border-width: 4px;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  canvas:hover {
+    box-shadow: 0 4px 18px 0 rgba(49, 20, 209, 0.5), 0 6px 20px 0 rgba(61, 14, 189, 0.5);
+  }
